@@ -1,0 +1,77 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    border:1px solid red;/*exemple de ligne pour tester*/
+}
+
+.responsive { /* partie responsive sur les images, class="responsive" width="600" height="400"> */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+body, html{
+    padding: 0px;
+    margin: auto;
+    width: auto;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+
+#header{
+    background: green;
+    display:block
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    height:100vh;
+}
+
+
+@media screen and (min-width:600px){
+ body{
+     background-color: aqua;
+ }
+
+
+
+ #header{
+    background: green;
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    text-align:center;
+    height: auto;
+}
+
+
+
+#header :nth-child(1){
+   border: 10px solid blue;
+   display:block
+  align-self: center;
+}
+
+
+
+#intro{
+
+
+}
+
+}
+
+@media screen and (min-width:1200px){
+    body{
+        background-color: yellow;
+    }
+   }

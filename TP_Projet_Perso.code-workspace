@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\clients_web\\cda_mon_portfolio"
+		},
+		{
+			"path": "..\\clients_web\\TP_portfolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cda_mon_portfolio"
+	}
+}
